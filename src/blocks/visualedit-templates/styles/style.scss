@@ -1,0 +1,129 @@
+.visualedit-patterns-column-button .visualedit-block-button {
+	margin-bottom: 0;
+}
+
+.visualedit-patterns-selector-group {
+	margin-top: 10px;
+}
+
+.visualedit-patterns-selector {
+	display: inline-block;
+	margin: 0 5px;
+
+	button.visualedit-patterns-selector-button {
+		padding: 15px;
+		height: auto;
+		border-radius: 5px;
+		background: #fff;
+
+		&:hover {
+			background: #fff;
+		}
+	}
+
+	button.components-button.is-button:last-child {
+		border-radius: 5px;
+	}
+}
+
+.visualedit-import-pattern-button {
+	margin-right: 3px;
+	color: #ff6f61;
+}
+
+.visualedit-pattern-importer-modal .components-modal__header-heading {
+	color: #ff6f61;
+	margin-left: 1.2rem;
+}
+
+.visualedit-patterns-team-1 {
+
+	.visualedit-profile-column {
+		flex: 100%;
+	}
+
+	.visualedit-social-links {
+		padding-top: 25px;
+	}
+}
+
+.visualedit-patterns-hero-cover {
+
+	.wp-block-cover__inner-container {
+		max-width: 800px;
+	}
+
+	h2,
+	h3,
+	h4 {
+		max-width: 100%;
+	}
+}
+
+.visualedit-white-text,
+.editor-styles-wrapper [data-type="core/heading"] .visualedit-white-text {
+	color: #fff;
+}
+
+.visualedit-patterns-landing-2 {
+
+	.visualedit-block-profile {
+		padding: 0;
+		text-align: center;
+	}
+
+	.visualedit-block-profile .visualedit-profile-avatar-wrap,
+	.visualedit-block-profile .visualedit-profile-column {
+		flex: 0 0 100%;
+	}
+
+	.round .visualedit-profile-image-wrap {
+		max-width: 220px;
+		margin: 0 auto;
+	}
+
+	.visualedit-block-cta {
+
+		.visualedit-cta-content {
+			max-width: 700px;
+			margin: 0 auto;
+		}
+
+		.visualedit-button {
+			font-weight: normal;
+		}
+	}
+}
+
+.visualedit-patterns-landing-3 {
+
+	.visualedit-patterns-landing-3-cover {
+
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			margin-left: auto;
+			margin-right: auto;
+
+			@media only screen and (min-width: 600px) {
+				font-size: 42px;
+			}
+		}
+	}
+
+	@media only screen and (min-width: 600px) {
+
+		.visualedit-block-post-grid header .visualedit-block-post-grid-title {
+			font-size: 24px;
+		}
+	}
+}
+
+
+div[class*="visualedit-section-"].alignfull,
+div[class*="visualedit-patterns-"].alignfull {
+	margin-top: auto;
+	margin-bottom: auto;
+}
